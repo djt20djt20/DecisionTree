@@ -1,5 +1,4 @@
 import streamlit as st
-from app import add  # Assuming add is a function defined in your existing code
 
 st.title("My Streamlit App")
 
