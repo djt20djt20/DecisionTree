@@ -1,6 +1,11 @@
 import streamlit as st
-from app.streamlit_app import add_numbers
+from utils import add_numbers
+import logging
 
+logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger(__name__)
+
+logger.info("Starting Streamlit app")
 st.title("My Streamlit App")
 
 st.write("This is a simple Streamlit app.")
