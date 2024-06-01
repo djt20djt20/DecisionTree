@@ -1,4 +1,3 @@
 pandas
 scikit-learn
-scikit-learn.datasets
 unittest
