@@ -51,5 +51,5 @@ jobs:
       env:
         HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
       run: |
-        heroku container:push web --app <your-heroku-app-name>
-        heroku container:release web --app <your-heroku-app-name>
+        heroku container:push web --app decisiontree
+        heroku container:release web --app decisiontree
