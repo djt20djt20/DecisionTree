@@ -1,5 +1,5 @@
 import unittest
-from app.streamlit_app import add_numbers
+from app.utils import add_numbers
 
 class TestAddFunction(unittest.TestCase):
 
